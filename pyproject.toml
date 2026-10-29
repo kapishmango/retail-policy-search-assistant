@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retail-policy-search-assistant"
+version = "1.0.0"
+description = "Reproducible retail analytics portfolio project"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[project.scripts]
+policy-search = "policy_search.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["policy_search*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.package-data]
+policy_search = ["resources/text/*.md", "resources/*.json"]

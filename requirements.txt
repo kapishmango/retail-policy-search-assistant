@@ -1,0 +1,11 @@
+pandas==2.2.3
+numpy==2.3.5
+scikit-learn==1.8.0
+faiss-cpu==1.15.1
+pypdf==6.10.0
+pypdfium2==5.14.0
+pytesseract==0.3.13
+Pillow==12.3.0
+streamlit==1.66.1
+reportlab==4.4.9
+snowballstemmer==3.0.1

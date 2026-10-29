@@ -1,0 +1,16 @@
+[
+  {"id":"Q01","question":"How many days do I have for standard returns?","answerable":true,"source":"returns.md","page":1,"answer_contains":["30 days"]},
+  {"id":"Q02","question":"When is a refund issued after inspection?","answerable":true,"source":"returns.md","page":2,"answer_contains":["7 business days"]},
+  {"id":"Q03","question":"How long does standard delivery take?","answerable":true,"source":"shipping.md","page":1,"answer_contains":["3 to 5 business days"]},
+  {"id":"Q04","question":"How soon should I report a damaged delivery?","answerable":true,"source":"shipping.md","page":2,"answer_contains":["48 hours"]},
+  {"id":"Q05","question":"What temperature should I machine wash cotton garments at?","answerable":true,"source":"product_guide.md","page":1,"answer_contains":["30 degrees"]},
+  {"id":"Q06","question":"What USB adapter should I use to charge the rechargeable lamp?","answerable":true,"source":"product_guide.md","page":2,"answer_contains":["5V 2A"]},
+  {"id":"Q07","question":"When should a stock discrepancy be reported?","answerable":true,"source":"store_operations.md","page":1,"answer_contains":["same shift"]},
+  {"id":"Q08","question":"How long are click-and-collect orders held?","answerable":true,"source":"store_operations.md","page":2,"answer_contains":["5 calendar days"]},
+  {"id":"Q09","question":"Can personalised products be returned if defective?","answerable":true,"source":"returns.md","page":1,"answer_contains":["unless they are defective"]},
+  {"id":"Q10","question":"What documents does a nominated collector need?","answerable":true,"source":"store_operations.md","page":2,"answer_contains":["their own photo ID"]},
+  {"id":"Q11","question":"What is the chief executive's salary?","answerable":false},
+  {"id":"Q12","question":"Who won the cricket tournament yesterday?","answerable":false},
+  {"id":"Q13","question":"What is the international delivery price?","answerable":false},
+  {"id":"Q14","question":"What warranty period applies to the rechargeable lamp?","answerable":false}
+]
